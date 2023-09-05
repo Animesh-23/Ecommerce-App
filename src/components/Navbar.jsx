@@ -17,8 +17,8 @@ const Navbar = () => {
           <Link to={"/juice"}>Juice</Link>
         </div>
       </div>
-      <div className=" flex items-center gap-6">
-        <div className="text-lg font-medium flex gap-4">
+      <div className=" flex items-center gap-4">
+        <div className="text-lg font-medium flex gap-6">
           <Link to={"/about"}>About</Link>
           <Link to={"/contact"}>Contact</Link>
         </div>
@@ -29,6 +29,9 @@ const Navbar = () => {
           </div>
           <div className=" flex">
             <AiOutlineShoppingCart color="green" size={"25px"} />
+            <div className=" rounded-full w-4 h-4 bg-lime-600 relative bottom-1 right-2 shadow font-medium text-black text-center text-xs">
+              5
+            </div>
           </div>
         </div>
         <TiUser size={"25px"} />
